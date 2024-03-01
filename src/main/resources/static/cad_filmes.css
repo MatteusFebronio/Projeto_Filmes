@@ -1,0 +1,169 @@
+li{
+
+ display: flex;
+ justify-content: right;
+ align-items: center;
+
+}
+
+.bt{
+
+ font-size: 20px;
+ text-align: left;
+ text-decoration: none;
+ color: rgb(5, 17, 197);
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to right, black, darkblue);
+
+  }
+
+        .Canto {
+
+            text-decoration: none;
+            color: #ffffff;
+            margin: 0;
+            color: hsl(0, 0%, 100%);
+            width: 300px;
+            text-align: center;
+            height: 50px;
+            font-family: Arial, sans-serif;
+
+        }
+
+        footer {
+            background-color: darkblue;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .Sem {
+
+            text-decoration: none;
+
+
+
+        }
+
+
+ .butao {
+
+  margin-left: 80px;
+
+            }
+
+        form {
+
+            width: 1000px;
+            padding: 75px;
+            border: 1px solid #2746f3;
+            border-radius: 40px;
+            box-shadow: 0 0 20px rgba(255, 10, 10, 0.1);
+            margin-right: 60%;
+
+
+          }
+
+          label {
+
+            display: block;
+            margin-bottom: 25px;
+            color: white;
+
+          }
+
+          input {
+
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+
+          }
+
+          div {
+
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        background-color: #2b66d3;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+
+      }
+
+          .h11{
+
+        margin: 0;
+        color: hsl(0, 0%, 100%);
+        width: 300px;
+        text-align: center;
+        height: 50px;
+        margin-left: 5%;
+
+      }
+
+          button {
+
+            background-color: #2b66d3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 20%;
+            margin-top: 0%;
+
+          }
+
+          button:hover {
+            background-color: #5b95d6;
+
+          }
+
+          .body2 {
+
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, black, darkblue);
+
+        }
+
+        .video-container {
+
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        video {
+
+            max-width: 100%;
+            height: auto;
+
+        }
+
+        .content {
+
+            text-align: center;
+            color: white;
+
+        }

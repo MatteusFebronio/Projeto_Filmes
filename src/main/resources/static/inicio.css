@@ -1,0 +1,136 @@
+      body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background:linear-gradient(to right , #000, #1f3ad1);
+        }
+
+        header {
+            background-color:linear-gradient(to right , #000, #1f3ad1);
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav {
+            background-color:linear-gradient(to right , #5e5d5d, #1f3ad1);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .filme {
+            width: 300px;
+            margin: 15px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(4, 145, 4, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .filme:hover {
+            transform: scale(1.05);
+        }
+
+        .filme img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #190dc2;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        
+        .Canto {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .Sem {
+            text-decoration: none;
+            color: black;
+
+        }
+
+/* Estilizando o botão e o contêiner do dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left: 85%;
+}
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0px;
+}
+
+/* Estilizando as opções do dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #dddddd;
+}
+
+/* Exibindo as opções quando o botão é hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.perfil{
+
+width: 40px;
+height:40px;
+background-color: rgba(255, 255, 255, 0) ;
+
+}
+
+.zero{
+
+    background: #f9f9f900;
+    border: none;
+
+}
+ 
+.letra{
+
+ font-size: 18px;
+
+}

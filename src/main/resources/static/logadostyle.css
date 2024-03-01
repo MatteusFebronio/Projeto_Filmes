@@ -1,0 +1,71 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background:linear-gradient(to right , #000, #1f3ad1);
+        }
+
+        header {
+            background-color:linear-gradient(to right , #000, #1f3ad1);
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav {
+            background-color:linear-gradient(to right , #5e5d5d, #1f3ad1);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .filme {
+            width: 300px;
+            margin: 15px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(4, 145, 4, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .filme:hover {
+            transform: scale(1.05);
+        }
+
+        .filme img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #190dc2;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .Canto {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .Sem {
+            text-decoration: none;
+
+        }

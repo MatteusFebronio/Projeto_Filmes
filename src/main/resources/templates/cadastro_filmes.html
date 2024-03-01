@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cad_filmes.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes ON</title>
+</head>
+<body>
+</head>
+<h1><a class="Canto"> Filmes ON </a></h1>
+<li>
+    <form th:object="${filmes}" th:action="@{/filmes}" method="post">
+
+        <h1 class="h11">Adicione o Filme</h1>
+
+        <label for="NomeDoFilme">Nome Do Filme</label>
+        <input th:field="*{NomeDoFilme}" id="NomeDoFilme" name="NomeDoFilme" type="text">
+        <label for="link">Link do Filme:</label>
+        <input th:field="*{link}" id="link" name="link" type="text">
+
+        <label for="imagem">Url da imagem do Filme:</label>
+        <input th:field="*{imagem}" id="imagem" name="imagem" type="text">
+
+        <label for="genero">Genero do Filme:</label>
+        <input th:field="*{genero}" id="genero" name="genero" type="text">
+
+        <input class="button" type="submit" value="Adicionar Filmes">
+    </form>
+</li>
+<footer>
+    <p>Filmes On &copy; 2024 </p>
+</footer>
+
+</body>
+</html>

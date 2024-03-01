@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="indexstyle.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Filmes ON</title>
+</head>
+<body>
+</head>
+
+<h1><a href="/" class="Canto"> Filmes ON </a></h1>
+
+<li>
+    <form th:action="@{/login}" method="post">
+        <h1 class="h11">Login</h1>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="username" required>
+
+        <label for="email">Senha:</label>
+        <input type="password" id="senha" name="password" required>
+
+
+        <button type="submit" value="Entrar">Entrar</button>
+        <button type="button"><a href="cad_pessoa">Cadastro</a></button>
+    </form>
+
+
+</li>
+</body>
+</html>

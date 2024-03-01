@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inicio.css">
+    <title>Filmes ON</title>
+
+</head>
+<body>
+<header>
+    <h1><a class="Canto" href=""> Filmes ON </a>
+        <div class="dropdown-content">
+            <a class="letra" href="#">Minha Conta</a>
+            <a class="letra" href="#">Configurações</a>
+            <a class="letra" href="/">Sair</a>
+        </div>
+    </h1>
+    <nav>
+        <a href="/">Início</a>
+        <a href="#">Lançamentos</a>
+        <a href="login-sucess">Filmes</a>
+    </nav>
+</header>
+
+
+<section>
+    <div class="filme" th:each="f : ${Filmes}" >
+        <a class="Sem" th:href="${f.Link}" >
+            <img th:src="${f.Imagem}">
+            <h2 th:text="${f.NomeDoFilme}"></h2> </a>
+    </div>
+
+
+    <!-- Adicione mais divs .filme conforme necessário -->
+</section>
+
+<footer>
+    <p>Filmes On &copy; 2024 </p>
+</footer>
+
+</body>
+
+</html>
+
